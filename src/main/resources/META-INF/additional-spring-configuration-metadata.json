@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "camelconf.host",
+    "type": "java.lang.String",
+    "description": "A description for 'camelconf.host'"
+  },
+  {
+    "name": "camelconf.port",
+    "type": "java.lang.String",
+    "description": "A description for 'camelconf.port'"
+  },
+  {
+    "name": "camelconf.clienthost",
+    "type": "java.lang.String",
+    "description": "A description for 'camelconf.mbaashost'"
+  },
+  {
+    "name": "camelconf.clientport",
+    "type": "java.lang.String",
+    "description": "A description for 'camelconf.mbaasport'"
+  }
+]}

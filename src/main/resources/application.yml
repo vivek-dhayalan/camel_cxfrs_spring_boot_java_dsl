@@ -1,0 +1,22 @@
+spring.main.sources: com.samples.apache.camel.springboot.cxf.MySpringBootRouter
+spring:
+  profiles.active: development
+debug: true
+logging:
+  level: TRACE
+---
+spring:
+  profiles: development
+camelconf:
+  host: 0.0.0.0
+  port: 8089
+  clienthost: 127.0.0.1
+  clientport: 8888
+---
+spring:
+  profiles: production
+camelconf:
+  host: 0.0.0.0
+  port: 8089
+  clienthost: 127.0.0.1
+  clientport: 8080
